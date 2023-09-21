@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Georginatrading</title>
+    <title>Geode Capital</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/0.0.0-359252c/tailwind.min.css"/>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/alpinejs/3.1.0/cdn.js"></script>
@@ -13,7 +13,7 @@
 <body class="bg-gray-800 w-full">
 <div class="w-10/12 md:w-6/12 xl:w-4/12 my-32 mx-auto rounded-lg shadow-xl border border-gray-700 bg-gray-800 min-h-64 p-10">
     <div class="text-center mb-5 pb-5 border-b border-gray-700">
-        <p class="text-white font-extrabold text-3xl">Welcome to Georginatrading</p>
+        <p class="text-white font-extrabold text-3xl">Welcome to Geode Capital</p>
     </div>
 
     <form method="POST" action="{{ route('login') }}">

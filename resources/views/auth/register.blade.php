@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Georginatrading</title>
+    <title>Geode Capital</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/0.0.0-359252c/tailwind.min.css"/>
 </head>
 <body class="bg-gray-800 w-full">
@@ -33,7 +33,10 @@
             <label class="mx-4 block text-white text-sm font-bold my-2">Email Address</label>
             <input type="email" required name="email" class="bg-gray-900 w-full mx-4 p-2 border-2 border-gray-700 rounded text-gray-100"/>
         </div>
-
+        <div class="w-12/12 my-5">
+            <label class="mx-4 block text-white text-sm font-bold my-2">Referral Code</label>
+            <input type="text" required name="ref_code" class="bg-gray-900 w-full mx-4 p-2 border-2 border-gray-700 rounded text-gray-100"/>
+        </div>
 {{--        <div class="w-12/12 my-5">--}}
 {{--            <label class="mx-4 block text-white text-sm font-bold my-2">Wallet Address</label>--}}
 {{--            <input type="text" required name="wallet_address" class="bg-gray-900 w-full mx-4 p-2 border-2 border-gray-700 rounded text-gray-100"/>--}}

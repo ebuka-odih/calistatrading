@@ -1,5 +1,6 @@
 <?php
 
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -12,11 +13,25 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+
 Route::view('/', 'pages.index')->name('index');
-Route::view('/about', 'pages.about')->name('about');
-Route::view('/commitments', 'pages.commitments')->name('commitments');
-
-
+Route::view('firm/our-team', 'pages.our-team')->name('our-team');
+Route::view('firm/about-geode', 'pages.about')->name('about');
+Route::view('firm/history', 'pages.history')->name('history');
+Route::view('contact-us', 'pages.contact')->name('contact');
+Route::view('site-map', 'pages.site-map')->name('site-map');
+Route::view('terms-of-use', 'pages.terms-of-use')->name('terms-of-use');
+Route::view('privacy-policy', 'pages.privacy-policy')->name('privacy-policy');
+Route::view('careers', 'pages.careers')->name('careers');
+Route::view('info', 'pages.info')->name('info');
+Route::view('california-privacy-policy', 'pages.california-privacy-policy')->name('california-privacy-policy');
+Route::view('investment-capabilities/strategies', 'pages.strategies')->name('strategies');
+Route::view('investment-capabilities/our-approach', 'pages.our-approach')->name('our-approach');
+Route::view('firm/team/business-management', "pages.business-management")->name('business-management');
+Route::view('firm/team/investment-leadership', "pages.investment-leadership")->name('investment-leadership');
+Route::view('firm/team/business-development', "pages.business-development")->name('business-development');
+Route::view('firm/team/technology-leadership', "pages.technology-leadership")->name('technology-leadership');
+Route::view('firm/team/board-of-directors', "pages.board-of-directors")->name('board-of-directors');
 
 Auth::routes(['verify' => true]);
 

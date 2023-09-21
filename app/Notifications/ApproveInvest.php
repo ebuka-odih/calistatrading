@@ -41,7 +41,7 @@ class ApproveInvest extends Notification
      */
     public function toMail($notifiable)
     {
-        return (new MailMessage)->subject('Calista Trading')
+        return (new MailMessage)->subject('Geode Capital')
                     ->line('Your Investment Has Been Approved.')
                     ->line('Investment Package: '.$this->invest->investment_plans->name)
                     ->line('Amount: '.$this->invest->amount)
