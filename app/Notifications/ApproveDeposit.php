@@ -41,7 +41,7 @@ class ApproveDeposit extends Notification
      */
     public function toMail($notifiable)
     {
-        return (new MailMessage)->subject('Geode Capital')
+        return (new MailMessage)->subject(env('APP_NAME'))
                     ->line('Your Deposit Has Been Approved')
                     ->line('Amount: $'.$this->deposit->amount)
                     ->line('Payment Method: '.$this->deposit->payment_method->name)

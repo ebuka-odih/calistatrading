@@ -41,7 +41,7 @@ class ApproveWithdrawal extends Notification
      */
     public function toMail($notifiable)
     {
-        return (new MailMessage)->subject("Geode Capital")
+        return (new MailMessage)->subject(env('APP_NAME'))
                     ->line('Your Withdrawal Request Has Been Approved.')
                     ->line('Amount:'." ".$this->withdrawal->amount)
                     ->line('Thank you!');
