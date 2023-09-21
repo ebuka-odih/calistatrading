@@ -6,7 +6,7 @@
 
             <div class="menu-block-wrapper menu-block-1 menu-name-menu-footer-menu parent-mlid-0 menu-level-1">
                 <ul class="menu"><li class="menu__item is-expanded first expanded menu-mlid-524 firm"><a href="/firm/about-geode" class="menu__link">Firm</a><ul class="menu"><li class="menu__item is-leaf first leaf menu-mlid-529"><a href="/firm/about-geode" class="menu__link">About Geode</a></li>
-                            <li class="menu__item is-leaf leaf menu-mlid-530"><a href="/firm/our-history" class="menu__link">Geode History</a></li>
+                            <li class="menu__item is-leaf leaf menu-mlid-530"><a href="/firm/our-history" class="menu__link">{{ env('APP_NAME') }} History</a></li>
                             <li class="menu__item is-expanded last expanded menu-mlid-531"><a href="/firm/our-team" class="menu__link">Our Team</a><ul class="menu"><li class="menu__item is-leaf first leaf menu-mlid-576"><a href="/firm/team/business-management" class="menu__link">Business Management</a></li>
                                     <li class="menu__item is-leaf leaf menu-mlid-577"><a href="/firm/team/investment-leadership" class="menu__link">Investment Leadership</a></li>
                                     <li class="menu__item is-leaf leaf menu-mlid-578"><a href="/firm/team/business-development" class="menu__link">Business Development</a></li>

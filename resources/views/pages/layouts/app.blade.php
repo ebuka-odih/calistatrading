@@ -6,11 +6,11 @@
     <meta name="generator" content="Drupal 7 (https://www.drupal.org)" />
     <link rel="canonical" href="index.html" />
     <link rel="shortlink" href="index.html" />
-    <meta property="og:site_name" content="Geode Capital Invest" />
+    <meta property="og:site_name" content="{{ env('APP_NAME') }}" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="index.html" />
-    <meta property="og:title" content="Geode Capital Invest" />
-    <title>Geode Capital Invest |</title>
+    <meta property="og:title" content="{{ env('APP_NAME') }}" />
+    <title>{{ env('APP_NAME') }} |</title>
 
     <meta name="MobileOptimized" content="width">
     <meta name="HandheldFriendly" content="true">
