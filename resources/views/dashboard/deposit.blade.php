@@ -45,7 +45,7 @@
                 </li>
                 @foreach($deposits as $item)
                 <li class="flex justify-between items-center border-b-2 border-gray-700 py-4 text-gray-50 font-normal">
-                    <div>{{ \Carbon\Carbon::parse($item->created)->diffForHumans() }}</div>
+                    <div>{{ date('d M, Y', strtotime($item->created_at)) }}</div>
                     <div>$ @convert($item->amount)</div>
                     <div>{!! $item->status() !!}
                         @if($item->status == 0)

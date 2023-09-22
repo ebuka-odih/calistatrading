@@ -15,11 +15,11 @@
         <section class="s-morals">
             <div class="s-morals__container">
                 <h1 class="s-morals__title el-headline">
-                    Tradesexcution’s commitments to you
+                    {{ env('APP_NAME') }} commitments to you
                 </h1>
 
                 <div class="s-morals__description">
-                    Tradesexcution should always expect the following commitments by Tradesexcution to be a part of their Tradesexcution experience:
+                    {{ env('APP_NAME') }} should always expect the following commitments by {{ env('APP_NAME') }} to be a part of their {{ env('APP_NAME') }} experience:
                 </div>
 
                 <ul class="s-morals__list">
@@ -30,7 +30,7 @@
                             </svg>
                         </div>
                         <div class="s-morals__item-title">
-                            Tradesexcutionals always trade with zero commissions and fees of any kind.
+                            {{ env('APP_NAME') }} always trade with zero commissions and fees of any kind.
                         </div>
                     </li>
                     <li class="s-morals__item">
@@ -40,7 +40,7 @@
                             </svg>
                         </div>
                         <div class="s-morals__item-title">
-                            Tradesexcutionals always buy or sell various financial assets at real-time spot prices of existing global and crypto exchanges such as NYSE, NASDAQ, BATS Europe, LSE, CME, NYMEX, Binance and Coinbase.
+                            {{ env('APP_NAME') }} always buy or sell various financial assets at real-time spot prices of existing global and crypto exchanges such as NYSE, NASDAQ, BATS Europe, LSE, CME, NYMEX, Binance and Coinbase.
                         </div>
                     </li>
                     <li class="s-morals__item">
@@ -50,7 +50,7 @@
                             </svg>
                         </div>
                         <div class="s-morals__item-title">
-                            Tradesexcutionals can always validate Tradesexcution’s trading conditions via blockchain smart contract, and participate in Tradesexcution revenues via QTF token ownership if they wish.
+                            {{ env('APP_NAME') }} can always validate {{ env('APP_NAME') }} trading conditions via blockchain smart contract, and participate in {{ env('APP_NAME') }} revenues via QTF token ownership if they wish.
                         </div>
                     </li>
                 </ul>

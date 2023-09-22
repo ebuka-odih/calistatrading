@@ -184,7 +184,7 @@
                             Made for everyone
                         </h2>
                         <div class="s-regular__description">
-                            <p>Georginatrading                                        was designed from the ground up to make trading and investing intuitive, and as simple as running water.</p>
+                            <p>{{ env('APP_NAME') }} was designed from the ground up to make trading and investing intuitive, and as simple as running water.</p>
                             <br>
                             <p>Sign up and verify your account in under 2 minutes, to trade and invest with unmatched conditions on your desktop or mobile device.</p>
                         </div>
@@ -205,7 +205,7 @@
                         <div class="s-regular__description">
                             <p>Other trading platforms and brokerages charge commissions and borrowing fees, or various sorts of hidden fees.</p>
                             <br>
-                            <p>In Georginatrading                                       , there are no trade commissions, no borrowing fees – no fees of ANY kind.</p>
+                            <p>In {{ env('APP_NAME') }}                                       , there are no trade commissions, no borrowing fees – no fees of ANY kind.</p>
                         </div>
 
                     </div>
@@ -224,7 +224,7 @@
                         <div class="s-regular__description">
                             <p>Other trading platforms and brokerages artificially expand the difference between buy and sell prices, placing you at a consistent disadvantage.</p>
                             <br>
-                            <p>Quantfurians always transact at their real-time spot prices of relevant global exchanges, such as NYSE, NASDAQ, BATS Europe, CME, Binance and Coinbase.</p>
+                            <p>{{ env('APP_NAME') }} always transact at their real-time spot prices of relevant global exchanges, such as NYSE, NASDAQ, BATS Europe, CME, Binance and Coinbase.</p>
                         </div>
 
                     </div>
@@ -241,7 +241,7 @@
                             Transparency
                         </h2>
                         <div class="s-regular__description">
-                            Georginatrading                                        uses trading data is digitized and published anonymously using a smart contract and IPFS, so the authenticity of the Georginatrading                                        unmatched trading conditions and volume can always be verified.
+                            {{ env('APP_NAME') }}                                        uses trading data is digitized and published anonymously using a smart contract and IPFS, so the authenticity of the {{ env('APP_NAME') }}                                        unmatched trading conditions and volume can always be verified.
                         </div>
 
                         <footer class="s-regular__footer">

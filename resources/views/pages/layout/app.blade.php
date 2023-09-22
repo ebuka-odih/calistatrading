@@ -428,7 +428,7 @@
                     <p>© {{ Date('Y') }} {{ env('APP_NAME') }}. All rights reserved.</p>
                     <p>{{ env('APP_NAME') }} Trading Limited and its mobile app and web-based application. </p>
                    <p>
-                       {{ env('APP_NAME') }} is authorized and regulated by The Financial Conduct Authority - View Georgina Trading’s license no QNH-7266. All Funds traded are covered with Insurance provided by Skandia Insurance
+                       {{ env('APP_NAME') }} is authorized and regulated by The Financial Conduct Authority - View {{ env('APP_NAME') }}’s license no QNH-7266. All Funds traded are covered with Insurance provided by Skandia Insurance
                    </p>
 
                 </div>
@@ -444,7 +444,7 @@
             <img data-flag src="wp-content/uploads/2021/11/USA.svg" >
         </div>
         <div class="popup__container-header" data-title>
-            Georgina Trading is authorized and regulated by The Financial Conduct Authority - View Georgina Trading’s license no QNH-7266. All Funds traded are covered with Insurance provided by Skandia Insurance
+            {{ env('APP_NAME') }} is authorized and regulated by The Financial Conduct Authority - View {{ env('APP_NAME') }}’s license no QNH-7266. All Funds traded are covered with Insurance provided by Skandia Insurance
 
         </div>
 
