@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8"/>
 
-    <title>Georginatrading | Everybody&#039;s Honest Trading &amp; Investing</title>
+    <title>{{ env('APP_NAME') }} | Everybody&#039;s Honest Trading &amp; Investing</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
