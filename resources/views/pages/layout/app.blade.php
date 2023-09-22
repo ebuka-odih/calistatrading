@@ -12,15 +12,15 @@
     <!-- wp-head -->
 
     <!-- This site is optimized with the Yoast SEO Premium plugin v18.9 (Yoast SEO v19.12) - https://yoast.com/wordpress/plugins/seo/ -->
-    <meta name="description" content="Georginatrading – trade and invest FREE of commissions and borrowing fees at real-time spot prices of global exchanges." />
+    <meta name="description" content="{{ env('APP_NAME') }} – trade and invest FREE of commissions and borrowing fees at real-time spot prices of global exchanges." />
     <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Georginatrading | Everybody&#039;s Honest Trading &amp; Investing" />
-    <meta property="og:description" content="Georginatrading – trade and invest FREE of commissions and borrowing fees at real-time spot prices of global exchanges." />
-    <meta property="og:site_name" content="Georginatrading" />
-    <meta name="twitter:title" content="Georginatrading | Everybody&#039;s Honest Trading &amp; Investing" />
-    <meta name="twitter:description" content="Georginatrading – trade and invest FREE of commissions and borrowing fees at real-time spot prices of global exchanges." />
-    <meta name="twitter:site" content="@Georginatrading" />
+    <meta property="og:title" content="{{ env('APP_NAME') }} | Everybody&#039;s Honest Trading &amp; Investing" />
+    <meta property="og:description" content="{{ env('APP_NAME') }} – trade and invest FREE of commissions and borrowing fees at real-time spot prices of global exchanges." />
+    <meta property="og:site_name" content="{{ env('APP_NAME') }}" />
+    <meta name="twitter:title" content="{{ env('APP_NAME') }} | Everybody&#039;s Honest Trading &amp; Investing" />
+    <meta name="twitter:description" content="{{ env('APP_NAME') }} – trade and invest FREE of commissions and borrowing fees at real-time spot prices of global exchanges." />
+    <meta name="twitter:site" content="@{{ env('APP_NAME') }}" />
 
 
     <!-- / Yoast SEO Premium plugin. -->
@@ -64,7 +64,7 @@
                 <span class="visually-hidden">Go to main page</span>
 {{--                <img class="header-logo__icon" src="wp-content/uploads/2021/04/logo.svg"--}}
 {{--                     alt="">--}}
-                <h2 style="color: white; font-weight: bolder">Georginatrading</h2>
+                <h2 style="color: white; font-weight: bolder">{{ env('APP_NAME') }}</h2>
             </a>
 
             <nav class="header-nav" data-nav data-scroll-lock-scrollable>
@@ -342,7 +342,7 @@
             <div class="footer__left">
                 <div class="footer__left-main">
                     <div class="footer__logo">
-                        <h3 style="font-weight: bolder; color: white">Georginatrading</h3>
+                        <h3 style="font-weight: bolder; color: white">{{ env('APP_NAME') }}</h3>
                     </div>
 
                     <div class="footer__challenge-text">
@@ -425,10 +425,10 @@
 
             <div class="footer__legal">
                 <div class="footer__legal-text" data-legal-text>
-                    <p>© 2023 Georginatrading. All rights reserved.</p>
-                    <p>Georginatrading Trading Limited and its mobile app and web-based application. </p>
+                    <p>© {{ Date('Y') }} {{ env('APP_NAME') }}. All rights reserved.</p>
+                    <p>{{ env('APP_NAME') }} Trading Limited and its mobile app and web-based application. </p>
                    <p>
-                       Georgina Trading is authorized and regulated by The Financial Conduct Authority - View Georgina Trading’s license no QNH-7266. All Funds traded are covered with Insurance provided by Skandia Insurance
+                       {{ env('APP_NAME') }} is authorized and regulated by The Financial Conduct Authority - View Georgina Trading’s license no QNH-7266. All Funds traded are covered with Insurance provided by Skandia Insurance
                    </p>
 
                 </div>
